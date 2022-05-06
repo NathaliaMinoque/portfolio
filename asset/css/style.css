@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #21273A;
+    font-family: 'Poppins';
+    /* padding: 5px; */
+}
+/* text styling */
+.text{
+    font-size: 14px;
+    color: white;
+}
+.text2{
+    font-size: 10px;
+}
+/* sub div styling */
+.sub-div-intro{
+    color: #C3B9B8;
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.sub-div{
+    color: #C3B9B8;
+    font-size: 11px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    padding-top: 60px;
+    margin-left: 84px;
+}
+/* navbar styling*/
+.navbar{
+    position: sticky;
+    width: 100%;
+    padding: 12px 0;
+}
+.navbar .max-width{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin-left: 599px;
+}
+.navbar .logo a{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    margin-left: -600px;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color:white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+.navbar .menu li a:hover{
+    text-decoration:underline;
+}
+navbar-hr{
+    width: 90%;
+    height: 1px;
+    border: none;
+    background-color: #C3B9B8;
+}
+
+/* home styling */
+.home-container{
+    color: white;
+    display: flex;
+    width: 960px;
+    margin: 58px auto;
+    margin-left: 113px;
+    padding: 34px;
+    justify-content: center;
+    align-items: baseline;
+    box-sizing: border-box;
+}
+.home-left{
+    flex:1
+}
+.home-right{
+    flex:1
+}
+.home-button{
+    display:flex;
+    margin-top: 23px;
+    font-size:11px;
+    align-items: center;
+}
+#name{
+    font-size:36px;
+    font-weight: bold;
+}
+.home-button-1{
+    border: 1px solid #605D79;
+    background-color: #605D79;
+    padding: 5px;
+    border-radius: 5px;
+    padding-inline: 16px;
+}
+.home-button-2{
+    padding: 5px;
+    padding-left: 19px;
+}
+.home-button-1:hover{
+    background-color: #21273A;
+    border: 1px solid #21273A;
+}
+.home-button-2:hover{
+    text-decoration:underline;
+}
+.home-background{
+    position: absolute;
+    width: 459px;
+    left: 670px;
+    top: 134px;
+    z-index: -1;
+}
+.home-pict{
+    position: absolute;
+    width: 225px;
+    left: 796px;
+    top: 189px;
+    z-index: 2;
+}
+/* styling expertises */
+.expertises-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-inline: 41px;
+    margin-bottom: 52px;
+}
+.expertises{
+    color: #FFFFFF;
+    background-color: #605D79;
+    padding-left: 20px;
+    padding-top: 21px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    border-radius: 7px;
+    width: 204px;
+}
+.expertises-title{
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+/* styling portfolios */
+.portfolio-background{
+    background-color: #1F2632;
+}
+.portfolio-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.portfolio-image{
+    position:relative;
+}
+
+/* styling certifications */
+.certification-background{
+    background-color: #21273A;
+}
+.certification-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-inline: 240px;
+    margin-left: 115px;
+    align-items: center;
+}
+.certification{
+    color: #FFFFFF;
+    background-color: #605D79;
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+    width: 204px;
+    text-align: center;
+}
+.certification-title{
+    font-size: 14px;
+    font-weight: 500;
+}
+.certification-numbering{
+    color: #C3B9B8;
+    margin-right: 15px;
+}
+.certification-see-more{
+    color: #FFFFFF;
+}
+
+/* styling paper */
+.paper{
+    margin-bottom: 20px;
+}
+.paper-date{
+    color: #C3B9B8;
+    font-size: 11px;
+    text-align: right;
+    font-weight: 300;
+}
+.paper-container{
+    margin-left: 153px;
+    margin-right: 153px;
+}
+.paper-hr{
+    width: 938px;
+    height: 0.2px;
+    border: none;
+    background-color: #C3B9B8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
