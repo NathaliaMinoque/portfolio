@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="asset/css/style.css">
     <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
@@ -8,137 +9,190 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
 </head>
+
 <body>
-    <nav class="navbar">
-        <div class="max-width">
-            <div class="logo"><a href=#home>Personal Web</a></div>
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#portfolio">Portfolios</a></li>
-                <li><a href="#about">Certification</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-        <hr class="navbar-hr">
-    </nav>
-    <div class="home-container">
-        <div class="home-left">
-            <!-- <div class="sub-div-intro">-INTRODUCTION</div> -->
-            <div id="name">Nathalia Minoque</div>
-            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam labore deserunt quaerat beatae consequuntur pariatur similique sequi soluta animi? Sunt inventore doloremque quisquam sed obcaecati sint amet ducimus voluptas cumque!</div>
-            <div class="home-button">
-                <div class="home-button-1">
-                    Let's Talk!
+    <header>
+        <title>
+            Portfolio
+        </title>
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo"><a href=#home>Personal Web</a></div>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#expertises">Expertises</a></li>
+                    <li><a href="#portfolio">Portfolios</a></li>
+                    <li><a href="#certification">Certification</a></li>
+                </ul>
+            </div>
+            <hr class="navbar-hr">
+        </nav>
+    </header>
+    <main>
+        <div id="home" class="home-container">
+            <div class="home-left">
+                <!-- <div class="sub-div-intro">-INTRODUCTION</div> -->
+                <div id="name">Nathalia Minoque</div>
+                <div class="text">I am an undergraduate information system
+                    student looking for opportunities in Tech
+                    Expertise on Apple Developer Academy. I am
+                    sure these great opportunities can give me a
+                    lot of experiences, softskills, and chances to
+                    learn more about Tech, especially in iOS
+                    Development. Although i still have to learn a lot
+                    about software development, i will try my best
+                    to contribute as much as possible in my team.
                 </div>
-                <div class="home-button-2">
-                    Download CV
+                <div class="home-button">
+                    <form action="">
+                        <button class="home-button-1" style="font-size: 10px;" type="submit" name="" value=""
+                            onclick="sendEmail()">Let's Talk!</button>
+                    </form>
+                    <!-- <div class="home-button-1">
+                        
+                    </div> -->
+                    <a class="home-button-2"
+                        href="https://drive.google.com/file/d/1USo---58xLBgUBdq3PFc3j97M_MsfPv7/view?usp=sharing">
+                        Download CV
+                        <a>
+                            <span class="iconify" data-icon="clarity:download-cloud-line"
+                                style="color: #f8f8f8; font-size: 16px;"></span>
                 </div>
-                <span class="iconify" data-icon="clarity:download-cloud-line" style="color: #f8f8f8; font-size: 16px;"></span>
             </div>
         </div>
-        <div class="home-right">
-           <img src="asset/image/home-background.png" alt="home-background" class="home-background">
-           <img src="asset/image/home-pict.png" alt="home-pict" class="home-pict">
-        </div>
-    </div>
-    <div class="sub-div">-EXPERTISES</div>
-    <div class="expertises-container">
-        <div class="expertises">
-            <div class="expertises-title">Web Developer<span class="iconify" data-icon="mdi:web" style="color: white; font-size: 20px; position:absolute; left:360px;"></span></div>
-            <div class="text2">Quaerat beatae consequuntur pariatur similique sequi soluta animi? Sunt inventore doloremque quisquam sed obcaecati sint amet ducimus voluptas cumque!</div>
-        </div>
-        <div class="expertises">
-            <div class="expertises-title">Desktop App Developer<span class="iconify" data-icon="healthicons:desktop-app-outline" style="color: white; font-size: 22px; position:absolute; left:715px;"></span></div>
-            <div class="text2">Quaerat beatae consequuntur pariatur similique sequi soluta animi? Sunt inventore doloremque quisquam sed obcaecati sint amet ducimus voluptas cumque!</div>
-        </div>
-        <div class="expertises">
-            <div class="expertises-title">UI/UX Designer<span class="iconify" data-icon="eos-icons:application-window-outlined" style="color: white; font-size: 20px; position:absolute; left:1063px;"></span></div>
-            <div class="text2">Quaerat beatae consequuntur pariatur similique sequi soluta animi? Sunt inventore doloremque quisquam sed obcaecati sint amet ducimus voluptas cumque!</div>
-        </div>
-    </div>
-    <!-- <div class="portfolio-background"> -->
-        <div class="sub-div">-PORTFOLIOS</div>
-        <div class="portfolio">
-            <div class="portfolio-container">
-                <div class="portfolio-text">
-                    <div class="portfolio-title">Langkahku</div>
-                    <div class="text">Quaerat beatae consequuntur pariatur similique sequi soluta animi? Sunt inventore doloremque quisquam sed obcaecati sint amet ducimus voluptas cumque!</div>
+        <aside>
+            <img src="asset/image/home-background.png" alt="home-background" class="home-background">
+            <img src="asset/image/home-pict.png" alt="home-pict" class="home-pict">
+        </aside>
+        <article>
+            <div class="sub-div" id="expertises">-EXPERTISES</div>
+            <div class="expertises-container">
+                <div class="expertises">
+                    <div class="expertises-title">Web Developer<span class="iconify" data-icon="mdi:web"
+                            style="color: white; font-size: 20px; position:absolute; left:360px;"></span></div>
+                    <div class="text2">Develop a website using Laravel framework also connected with mySQL database.
+                    </div>
                 </div>
-                <img src="asset/image/langkahku.png" alt="home-background" class="home-background">
-            </div>
-            <div class="portfolio-container">
-                <div class="portfolio-text">
-                    <div class="portfolio-title">Langkahku</div>
-                    <div class="text">Quaerat beatae consequuntur pariatur similique sequi soluta animi? Sunt inventore doloremque quisquam sed obcaecati sint amet ducimus voluptas cumque!</div>
+                <div class="expertises">
+                    <div class="expertises-title">Desktop App Developer<span class="iconify"
+                            data-icon="healthicons:desktop-app-outline"
+                            style="color: white; font-size: 22px; position:absolute; left:715px;"></span></div>
+                    <div class="text2">Develop a desktop application using Visual Studio and C# language.</div>
                 </div>
-                <div class="portfolio-image"><img src="asset/image/langkahku.png" alt="home-background" class="home-background"></div>
-            </div>
-            <div class="portfolio-container">
-                <div class="portfolio-text">
-                    <div class="portfolio-title">Langkahku</div>
-                    <div class="text">Quaerat beatae consequuntur pariatur similique sequi soluta animi? Sunt inventore doloremque quisquam sed obcaecati sint amet ducimus voluptas cumque!</div>
+                <div class="expertises">
+                    <div class="expertises-title">DB Administrator<span class="iconify"
+                            data-icon="eos-icons:application-window-outlined"
+                            style="color: white; font-size: 20px; position:absolute; left:1063px;"></span></div>
+                    <div class="text2">Design ER Diagram, develop mySQL database, and some implementations like views,
+                        trigger, procedure, function, etc.</div>
                 </div>
-                <div class="portfolio-image"></div>
             </div>
-            <div class="portfolio-container">
-                <div class="portfolio-text">
-                    <div class="portfolio-title">Langkahku</div>
-                    <div class="text">Quaerat beatae consequuntur pariatur similique sequi soluta animi? Sunt inventore doloremque quisquam sed obcaecati sint amet ducimus voluptas cumque!</div>
+        </article>
+
+        <div id="portfolio" class="portfolio-background">
+            <article>
+                <div class="sub-div">-PORTFOLIOS</div>
+                <div class="portfolio">
+                    <div class="portfolio-container">
+                        <img src="asset/image/langkahku.png" alt="home-background" class="portfolio-image">
+                        <div class="portfolio-text">
+                            <div class="text3" style="margin-bottom: 12px;">Langkahku</div>
+                            <div class="text4">Langkahku platform helps students to find out their passion and major
+                                that match their passion and potential. Thus, a suitable major will definitely help
+                                bring students closer to the professional career they are pursuing. Langkahku also helps
+                                students to have a starting point earlier because they can learn the modules according
+                                to their passion and suggested major. The modules based on real college's materials
+                                which they will be learned if they take that suggested major. It helps students to
+                                prepare themselves and find out whether the major is as their passion or not. Langkahku
+                                also provides a real mentor for students on their way in Langkahku. Beside that, there
+                                are many articles and information about college, major, and scholarship on Langkahku.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-container">
+                        <div class="portfolio-text">
+                            <div class="text3" style="margin-bottom: 12px;">Best Autocare Solution Website</div>
+                            <div class="text4"> Best Autocare Solution Website is made to facilitate stock recording and
+                                simple integrated report. This stock recording system aims to make it easier for
+                                business owners to carry out stock management properly, such as adding products, editing
+                                products, deleting products, and even managing the amount of product stock. In addition,
+                                the simple report feature makes it easier for business owners to monitor their business
+                                in e-commerce by getting automated reports.</div>
+                        </div>
+                        <img src="asset/image/best.png" alt="home-background" class="portfolio-image">
+                    </div>
+                    <div class="portfolio-container">
+                        <img src="asset/image/watchout-web.png" alt="home-background" class="portfolio-image">
+                        <div class="portfolio-text">
+                            <div class="text3" style="margin-bottom: 12px;">Watchout Website</div>
+                            <div class="text4"> Watchout is a watch distributor company that distributes various brands of watches to the resellers. Watchout Customer Website is a website where resellers can order stock watches from companies by online. Resellers can add the products to cart when they haven’t wanted to buy it yet. If reseller want to buy it, they can check it out from their own cart or directly from the product page. Reseller can edit their profile including their email an password. There is also a membership that provides discounts to resellers according to their membership level.</div>
+                        </div>
+                    </div>
+                    <div class="portfolio-container">
+                        <div class="portfolio-text">
+                            <div class="text3" style="margin-bottom: 12px;">Watchout Desktop Application</div>
+                            <div class="text4"> Watchout is a watch distributor company that distributes various brands of watches to the resellers. Watchout Customer Desktop Application is a desktop application where resellers can order stock watches from companies by online. Basically, it works like their customer website. Resellers can add the products to cart when they haven't wanted to buy it yet. If resellers want to buy it, they can check it out from their own cart or directly from the product page. Resellers can edit their profile including their email an password. There is also a membership that provides discounts to resellers according to their membership level.</div>
+                        </div>
+                        <img src="asset/image/watchout-desktop.png" alt="home-background" class="portfolio-image">
+                    </div>
                 </div>
-                <div class="portfolio-image"></div>
-            </div>
-            <div class="portfolio-container">
-                <div class="portfolio-text">
-                    <div class="portfolio-title">Langkahku</div>
-                    <div class="text">Quaerat beatae consequuntur pariatur similique sequi soluta animi? Sunt inventore doloremque quisquam sed obcaecati sint amet ducimus voluptas cumque!</div>
-                </div>
-                <div class="portfolio-image"></div>
-            </div>
-            <div class="portfolio-container">
-                <div class="portfolio-text">
-                    <div class="portfolio-title">Langkahku</div>
-                    <div class="text">Quaerat beatae consequuntur pariatur similique sequi soluta animi? Sunt inventore doloremque quisquam sed obcaecati sint amet ducimus voluptas cumque!</div>
-                </div>
-                <div class="portfolio-image"></div>
-            </div>
+            </article>
+
+            <br>
+            <br>
         </div>
-    <!-- </div> -->
-    <div class="certification-background">
-        <div class="sub-div">-CERTIFICATION</div>
-        <div class="certification-container">
-            <div class="certification">
-                <div class="certification-title"><span class="certification-numbering">1.</span>DQ Lab lalalallalala</div>
-            </div>
-            <div class="certification">
-                <div class="certification-title"><span class="certification-numbering">2.</span>DQ Lab lalalallalala</div>
-            </div>
-            <div class="certification">
-                <div class="certification-title"><span class="certification-numbering">3.</span>DQ Lab lalalallalala</div>
-            </div>
-            <div class="certification-see-more">
-                <div class="certification-title">See More<span class="iconify" data-icon="bi:arrow-right-short" style="color: #f8f8f8; font-size: 20px; top: 1019px;position: inherit;"></span></div>
-            </div>
+        <div id="certification" class="certification-background">
+            <article>
+                <div class="sub-div">-CERTIFICATION</div>
+                <div class="certification-container">
+                    <div class="certification">
+                        <div class="certification-title"><span class="certification-numbering">1.</span>Dicoding Dasar Web</div>
+                    </div>
+                    <div class="certification">
+                        <div class="certification-title"><span class="certification-numbering">2.</span>DQ Lab Intro to
+                            Python</div>
+                    </div>
+                    <div class="certification">
+                        <div class="certification-title"><span class="certification-numbering">3.</span>SQL Fundamental
+                        </div>
+                    </div>
+                </div>
+                <a class="certification-see-more" href="https://drive.google.com/drive/folders/1Stft7kn7Gzkj4kuyrG2jmfP2OG-olPAN?usp=sharing">
+                    See More<span class="iconify" data-icon="bi:arrow-right-short" style="color: #f8f8f8; font-size: 20px; top: 1019px;position: sticky;"></span>
+                </a>
+            </article>
         </div>
-    </div>
-    <div class="sub-div">-PAPER</div>
-    <div class="paper-container">
-        <div class="paper">
-            <div class="text">
-                The Impact of Promotion Analysis on Purchase Intention CICIL Products on Active Students in East Java
+        <article>
+            <div class="sub-div">-PAPER</div>
+            <div class="paper-container">
+                <div class="paper" id="paper-name">
+                    <a class="text"  href="https://journal.umtas.ac.id/index.php/ABDIMAS/article/view/2076"
+                        style="text-decoration: none;">
+                        Training and Awarding for Water Clover Processing as a Main Commodity for Leading UMKM in
+                        Kampung Semanggi Benowo, Surabaya
+                    </a>
+                    <div class="paper-date">
+                        (April, 2022)
+                    </div>
+                </div>
             </div>
-            <div class="paper-date">
-               (February, 2022) 
-            </div>
+        </article>
+
+        <br>
+        <br>
+    </main>
+    <script src="asset/script.js"></script>
+    <footer>
+        <div class="footer-container" style="text-align: center;">
+            <br>
+            <a href="https://www.linkedin.com/in/nathalia-minoque-487aaa216/"><span class="iconify" data-icon="ant-design:linkedin-outlined" style="color: #f8f8f8; font-size: 28px; margin-right: 20px;"></span></a>
+            <button href="https://www.linkedin.com/in/nathalia-minoque-487aaa216/"><span class="iconify" data-icon="tabler:brand-gmail" style="color: #f8f8f8; font-size: 28px; margin-right: 20px;"></span></button>
+            <a href="https://www.linkedin.com/in/nathalia-minoque-487aaa216/"><span class="iconify" data-icon="akar-icons:whatsapp-fill" style="color: #f8f8f8; font-size: 24px; margin-right: 20px;"></span></a>
+            <a href="https://www.linkedin.com/in/nathalia-minoque-487aaa216/"><span class="iconify" data-icon="akar-icons:instagram-fill" style="color: #f8f8f8; font-size: 26px;"></span></a>
         </div>
-        <hr class="paper-hr">
-        <div class="paper">
-            <div class="text">
-                The Impact of Promotion Analysis on Purchase Intention CICIL Products on Active Students in East Java
-            </div>
-            <div class="paper-date">
-                (February, 2022) 
-             </div>
+        <div class="text2" style="text-align: center; color:grey">Design and Develop by Nathalia Minoque 2021 All Rights Reserved.
         </div>
-    </div>
+    </footer>
 </body>
+
 </html>
